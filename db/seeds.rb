@@ -4,3 +4,10 @@
 # Example:
 #
 #   Person.create(first_name: 'Eric', last_name: 'Kelly')
+
+
+User.create("jacindaz@gmail.com", "Jacinda", "Zhong")
+User.create("brittany.low@gmail.com", "Brittany", "Low")
+
+
+Task.create("Launch systems check", 1, "Finish week 5 Launch Academy systems check, ActiveRecord migrations", Date.now)
